@@ -28,8 +28,8 @@ def main(a,b,c):
     if c<0:
         y+=1
     if x>y:
-        print("there are a lot of positive numbers") 
+        return "there are a lot of positive numbers" 
     if x<y:
-        print("there are a lot of negative numbers")
-    return 
+        return "there are a lot of negative numbers"
+
 print(main(1,-2,-1))
